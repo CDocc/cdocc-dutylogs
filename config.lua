@@ -7,3 +7,4 @@ config.jobWebhooks = { -- add your jobs and their webhook urls here
 }
 
 config.framework = 'qbox' -- Change this to 'qb' if you're using Qbox
+config.logCooldown = 60 -- cooldown in seconds
