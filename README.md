@@ -22,3 +22,5 @@ Configuring the Script:
 
 add the following to your server.cfg and then restart your server.
 `ensure cdocc-dutylogs`
+
+![image](https://github.com/user-attachments/assets/c062b2aa-f6a1-49f7-93fc-b2e39ce3c9b6)
