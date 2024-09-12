@@ -32,7 +32,7 @@ AddEventHandler('QBCore:Player:SetPlayerData', function(playerData)
     local player = getFrameworkPlayer(src)
     local job = playerData.job.name
     local duty = playerData.job.onduty
-    local webhookURL = jobWebhooks[job]
+    local webhookURL = config.jobWebhooks[job]
 
     if previousDutyStatus[src] ~= duty then
         previousDutyStatus[src] = duty
